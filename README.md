@@ -8,27 +8,27 @@ Types -
   2. FileStore - S3 with CDN
 		Use case -  e.g. Storing Image , Videos , Blobs for Online shopping like Amazon , Instagram.
   
-  3. Text Search - Elastic Search , Solr (Primary data source should be different as they are not DB but search engine )
+  3. Text Search - Elastic Search , Solr ( Primary data source should be different as they are not DB but search engine )
   
-     Use case - fuzzy search 		
+     Use case - Uber - location fuzzy search 
+		Netflix - search on movie , genre , artist information		
 
 		- DB gives guaranteed no data loss but search engines do not.
-		- Search engine comes gives redundancy and availiabilty but does not guarantee data loss so they never become primary .
+		- Search engine comes gives redundancy and availability but does not guarantee data loss so they never become primary .
   
-		Uber - fuzzy search 
-		Netflix search on movie , genre , artist information
+		
 
   4. Metrics - 	 OpenTSDB , Influx DB
   
      Use case - Applications metrics 		
-     Time Series Data bases - 
-			- tHese kind of data bases does not require random updates but sequential updates
+     Time Series Databases - 
+			- These kind of data bases does not require random updates but sequential updates.
 							
-			- Extension of regular databases with few reduced functionality
+			- Extension of regular databases with few reduced functionality.
 
-			- append write
+			- Append write
             
-      - no random read but a bulk read in a range
+      			- no random read but a bulk read in a range
             
   5. Analytics on TXN , orders, geo ,revenues  - Hadoop
 
