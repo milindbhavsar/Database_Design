@@ -12,11 +12,11 @@ Types -
   
      Use case - fuzzy search 		
 
-										- DB gives guaranteed no data loss but search engines do not.
-										- Search engine comes gives redundancy and availiabilty but does not guarantee data loss so they never become primary .
+		- DB gives guaranteed no data loss but search engines do not.
+		- Search engine comes gives redundancy and availiabilty but does not guarantee data loss so they never become primary .
   
 		Uber - fuzzy search 
-		Netflix search on movie , genre , artist
+		Netflix search on movie , genre , artist information
 
   4. Metrics - 	 OpenTSDB , Influx DB
   
@@ -44,15 +44,15 @@ Flowchart - When to choose relational and non relational DB
 		|
 		NO
 		|
-    |
+                |
 		NOSQL
 		|
 		|---> Lot of Data Types & Attributes|
-		|---> Variety Queries               |------------> Document --------> MongoDB , Couchbase | E.g. Amazon Catalogue - lot of product information & info about its attributes 
-    |
-    |
-    |
-    |
+		|---> Variety Queries               |------------> Document --------> MongoDB , Couchbase | E.g. Amazon Catalogue - lot of product information & attributes 
+    		|
+    		|
+    		|
+    		|
 		|---> Ever Increasing Data          | 
 		|---> Finite Queries                |------------> Columnar--------> Cassandra , Hbase    | E.g. Uber Driver location information
     
