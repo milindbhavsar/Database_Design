@@ -1,3 +1,7 @@
+DB designs
+
+https://www.youtube.com/watch?v=cODCpXtPHbQ
+
 On what basis u will choose a DB ?
   1. Structure 
   2. Query
